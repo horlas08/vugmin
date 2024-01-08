@@ -1,0 +1,22 @@
+{
+    "name": "vugtech/vugmin",
+    "description": "security helper code for vugtech software written in laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vugtech\\Vugmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "qozeem",
+            "email": "qozeemmonsurudeen@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": ["Vugtech\\Vugmin\\UtilityServiceProvider"]
+        }
+    }
+}
